@@ -3,8 +3,8 @@
 
   session_start();
   $error = "";
-  include "config.php";
-  include "header.php";
+  include '../config/config.php';
+  include 'header.php';
 
   if(isset($_POST['submit'])){
     if(empty($_POST['email']) || empty($_POST['pass'])) {
@@ -36,7 +36,7 @@
 
 <form action="" method="POST">
   <div class="container">
-  	<h2 class="login-title">Login Form</h2>
+  	<h2 class="login-title">Log in</h2>
     <input type="text" placeholder="Enter email" name="email">
     <input type="password" placeholder="Enter Password" name="pass">
     <button name = 'submit' type="submit">Login</button>

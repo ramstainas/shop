@@ -1,9 +1,7 @@
-<?php
-  include('header.php');
-?>
+<?php include('clients/header.php'); ?>
 
 <div class="main">
-	<h1>Welcome!!</h1>
+  <h1>Welcome!!</h1>
 </div>
 </div>
 
