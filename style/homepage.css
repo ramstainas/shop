@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #f1f1f1;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.main-nav li {
+    float: right;
+}
+
+.main-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    background-color: #111;
+}
+
+.main-nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.side-nav ul {
+    list-style-type: none;
+    background-color: #fff;
+    padding: 0 50px 0  0;
+    border: 1px solid gray; 
+}
+   
+.side-nav ul a {
+    color: black;
+    display: block;
+    padding: 14px 16px;
+}
+
+.side-nav{
+    margin-left: 100px;
+    background-color: red;
+}
+
+.side {
+
+    float: left;
+}
+
+.middle {
+    margin-left: 200px;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+
+.middle h1 {
+    text-align: center;
+}
+
+.my-account-form {
+    margin: 50px 100px 50px 50px ;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+
+
+.new-message-form {
+    margin: 50px 100px 50px 50px ;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+.new-message-form h2{
+   border: 1px solid gray;
+   background-color: black;
+   color: #fff;
+   font-size: 18px; 
+}
+
+.my-account-form h2{
+   border: 1px solid gray;
+   background-color: black;
+   color: #fff;
+   font-size: 18px; 
+}
+
+.my-account-form-profile{
+    float: left;
+    margin: 20px 0 20px 200px;
+    width: 20%;
+    border: 1px solid gray;
+    overflow: hidden; 
+}
+
+.my-account-form-info {
+    float: right;
+    margin: 20px 0 20px 10px;
+    width: 40%;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
